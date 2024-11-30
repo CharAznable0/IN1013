@@ -42,17 +42,4 @@ JOIN restStaff t2 ON t4.headwaiter = t2.staff_no
 WHERE t1.bill_total = (
 	SELECT MAX(bill_total)
     FROM restBill);
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
